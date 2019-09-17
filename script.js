@@ -8,6 +8,8 @@ let openDoor2;
 let openDoor3;
 const startButton = document.getElementById('start');
 let currentPlaying = true;
+let wins = 0;
+let losses = 0;
 
 //door paths
 const botDoorPath = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/robot.svg";
@@ -100,8 +102,12 @@ const startRound = () => {
 const gameOver = (status) => {
   if (status === 'win') {
     startButton.innerHTML = 'You win! Play again?'
+    wins++;
+    document.getElementById('wins').innerHTML = wins;
   }else{
     startButton.innerHTML = 'Game Over! Play again?'
+    losses++;
+    document.getElementById('losses').innerHTML = losses;
   } 
   currentlyPlaying = false;
 };

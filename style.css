@@ -1,72 +1,124 @@
-body {
-    background-color: #010165;
+body, html {
+    background-image: url('./spacel.jpg');
     margin: 0px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .header {
-    background-color: #00ffff;
+    background-color: #02dcdc;
     text-align: center;
+    height: 10%;
+    border-bottom:4px solid #fa1201;
+  }
+
+  #headImage {
+      height:105px;
+      width: 320px;
   }
   
   .title-row {
-      margin-top: 42px;
-    margin-bottom: 21px;
+      margin-top: 5px;
+    margin-bottom: 5px;
     text-align: center;
+  }
+
+  .titleImage {
+      height: 40px;
+      width: 60px;
   }
   
   .instructions-title {
     display: inline;
-    font-size: 18px;
-    color: #00ffff;
-    font-family: 'Work Sans';
+    font-size: 3.2em;
+    color: #02dcdc;
+    font-family: 'Saira Stencil One', cursive;
+    
+    text-shadow: -2px -2px #fa1201;
   }
   
   table {
-    border: 3px solid white;
+    border:4px solid  #fa1201;
+    background-color: rgba(211, 211, 211, 0.3);
   }
   
   .instructions-row {
     margin: 0 auto;
-    width: 400px;
+    width: 95%;
   }
   
   .instructions-number {
     padding-right: 25px;
-    font-family: 'Work Sans';
-    font-size: 36px;  
-    color: #00ffff;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 2.4em;  
+    color:  #fa1201;
+    padding: 8px;
+    text-shadow: -2px -2px #02dcdc;
+    border: 3px solid black;
+    text-align: center;
   }
   
   .instructions-text {
-    padding: 10px;
-    font-family: 'Work Sans';
-    font-size: 14px;  
-    color: #ffffff;
+    padding: 1px;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 2em;  
+    color: #69f2f2;
+    text-shadow: -2px -2px #fa1201;
+    border-bottom: 3px solid black;
+    text-align: center;
   }
   
   .door-row {
     text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
   }
   
   .door-frame {
     cursor: pointer;
     padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid  #fa1201;
   }
   
   .start-row {
-    margin: auto;
-      width: 120px;
-      height: 43px;
-      font-family: ‘Work Sans’;
-      background-color: #eb6536;
-      padding-top: 18px;
-      font-size: 18px;
+      margin: auto;
+      width: 51%;
+      height: 5%;
+      font-family: 'Saira Stencil One', cursive;
+      background-color: rgba(211, 211, 211, 0.3);
+      font-size: 1.5em;
       text-align: center;
-      color: #010165;
-      margin-bottom: 20px;
-    margin-top: 20px;
+      color: #02dcdc;
+      text-shadow: -2px -2px  #fa1201;
+      margin-bottom: 8px;
+      margin-top: 8px;
       cursor: pointer;
-    border: 3px solid white;
+      border: 4px solid  #fa1201;
+      
   }
   
+  .start-row:hover {
+      background-color: rgba(249, 4, 4, 0.3);
+  }
+
+  .scorebox {
+      width: 95%;
+      margin: 5px auto;
+      background-color: rgba(242, 247, 247, 0.3);
+      color: #02dcdc;
+      text-shadow: -2px -2px #fa1201;
+      text-align: center;
+      font-size: 2.5em;
+      font-family: 'Saira Stencil One', cursive;
+      margin-bottom: 10px;
+  }
   
+  /* font-family: 'Cabin Sketch', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Saira Stencil One', cursive; */
