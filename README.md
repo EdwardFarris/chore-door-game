@@ -12,7 +12,7 @@ _____
 _____
 
 ### **Demo Screenshots**
-#####Chore-Door
+##### Chore Door
 * The Game!
 ![Image of the Game](./demoShot.png)
 <br>
